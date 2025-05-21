@@ -10,10 +10,11 @@ public class Main {
 
         int[] arr3 = twoArr(arr, arr2);
         System.out.println(Arrays.toString(arr3));
-
+        System.out.println("Commit");
+//
     }
 
-    //  arrResTwo[i] = Math.min(a, b);
+
     public static int[] twoArr(int[] arr1, int[] arr2) {
 
         int[] arrRes = new int[arr1.length + arr2.length];
